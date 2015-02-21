@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ember Starter Kit</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <script type="text/x-handlebars" id="components/ui-switch">
+    <div class="disabled-background"></div>
+    <div class="toggler"></div>
+  </script>
+
+  <script type="text/x-handlebars">
+    <h2>Welcome to Ember.js</h2>
+
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" id="index">
+    <p>You are {{#if App.online}}ONLINE{{else}}OFFLINE{{/if}}</p>
+
+    <p>
+       You are using
+       {{#if App.platform.isMac}}
+         a Mac.
+       {{else}}{{#if App.platform.isWindows}}
+         a Windows PC.
+       {{else}}
+         a Linux PC.
+       {{/if}}{{/if}}
+    </p>
+
+    <p>
+      {{ui-switch enabled=enabled}}
+      {{#if enabled}}
+        ON
+      {{else}}
+        OFF
+      {{/if}}
+    </p>
+
+    <p>
+      {{ui-file-dialog id="open-file" value=fileToOpen}}
+      <button {{action "openFile" target="view"}}>Open File</button>
+      {{fileToOpen}}
+    </p>
+
+    <p>
+      {{ui-file-dialog id="open-directory" directory=true value=directoryToOpen}}
+      <button {{action "openDirectory" target="view"}}>Open Directory</button>
+      {{directoryToOpen}}
+    </p>
+
+    <p>
+      {{ui-file-dialog id="save-as" save="Untitled" value=saveAsFile}}
+      <button {{action "saveAs" target="view"}}>Save As</button>
+      {{saveAsFile}}
+    </p>
+  </script>
+
+  <div id="debug">
+    <button class='refresh'>Refresh</button>
+    <button class='devtools'>Dev Tools</button>
+  </div>
+
+  <script src="components/jquery/dist/jquery.js"></script>
+  <script src="components/handlebars/handlebars.js"></script>
+  <script src="components/ember/ember.js"></script>
+
+  <script>
+    var gui = require('nw.gui'),
+        win = gui.Window.get();
+
+    $('#debug .refresh').click(function() {
+      win.reloadIgnoringCache();
+    });
+
+    $('#debug .devtools').click(function() {
+      win.showDevTools();
+    });
+
+  </script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

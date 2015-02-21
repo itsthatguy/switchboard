@@ -1,0 +1,2264 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"closemen",
+				"closeMenuNow"
+			],
+			[
+				"javasc",
+				"javascript_include_tag"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"abso",
+				"absotutely"
+			],
+			[
+				"slot",
+				"slotMachine"
+			],
+			[
+				"image",
+				"imageMagick"
+			],
+			[
+				"mix",
+				"mixpanelEnabled"
+			],
+			[
+				"analyti",
+				"analyticsEnabled"
+			],
+			[
+				"tracking",
+				"trackingDisabled"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"track",
+				"trackingEnabled"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"File",
+				"File	File.read(\"..\")"
+			],
+			[
+				"dir",
+				"dir	directory()"
+			],
+			[
+				"disab",
+				"disableFormElements"
+			],
+			[
+				"label",
+				"labelCss"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"Th",
+				"THOUSAND"
+			],
+			[
+				"round",
+				"roundedNum"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bck",
+				"backgroundColor"
+			],
+			[
+				"font",
+				"fontFamily"
+			],
+			[
+				"jade",
+				"gulp-jade"
+			],
+			[
+				"test",
+				"testOpts"
+			],
+			[
+				"body",
+				"bodyBackgroundColor"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"generat",
+				"generatedPath"
+			],
+			[
+				"fin",
+				"findPort"
+			],
+			[
+				"adorabl",
+				"adorable-avatars"
+			],
+			[
+				"debounce",
+				"debounceGotoAnchor"
+			],
+			[
+				"petit",
+				"petition_statement"
+			],
+			[
+				"proce",
+				"processEvent"
+			],
+			[
+				"clean",
+				"cleanPath"
+			],
+			[
+				"base",
+				"baseStaticPath"
+			],
+			[
+				"template",
+				"templateHtml"
+			],
+			[
+				"bower",
+				"bowerPackageList"
+			],
+			[
+				"adap",
+				"adapterType"
+			],
+			[
+				"server",
+				"serverData"
+			],
+			[
+				"ava",
+				"avatarURL"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/js/index.coffee",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/index.html",
+			"settings":
+			{
+				"buffer_size": 2072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 4072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".sublime-project",
+			"settings":
+			{
+				"buffer_size": 301,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 164.0,
+		"selected_items":
+		[
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"align",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"forma",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"newfile",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"extend",
+				"ExtendScript: Build for Photoshop"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"new",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"incre",
+				"Increment Selection"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"a",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"renam",
+				"ANF: Rename File"
+			],
+			[
+				"dock",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"lign",
+				"AlignTab"
+			],
+			[
+				"cofee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"blaock",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sublimelint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"browpack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"docblock",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"docblo",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"goto",
+				"Go To Definition"
+			],
+			[
+				"defin",
+				"Coffee: Goto Definition"
+			],
+			[
+				"ctags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"open",
+				"InsertDate: Open README"
+			],
+			[
+				"go",
+				"Go To Definition"
+			],
+			[
+				"key",
+				"Keymaps: Cheat Sheet"
+			],
+			[
+				"rebuild",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"tags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"build",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"definition",
+				"Coffee: Goto Definition"
+			],
+			[
+				"doc",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"docs",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"visual",
+				"Set Syntax: Visualforce"
+			],
+			[
+				"keymap",
+				"Keymaps: Cheat Sheet"
+			],
+			[
+				"surround",
+				"Surround: change surround"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"convert",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"h",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"conver",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"html2",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"repositor",
+				"Package Control: Add Repository"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"stats",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git new",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git conflic",
+				"Git Conflict Resolver: Keep Theirs"
+			],
+			[
+				"confl",
+				"Git Conflict Resolver: Keep Theirs"
+			],
+			[
+				"conflict",
+				"Git Conflict Resolver: Find Next Conflict"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"gitmerge",
+				"Git: Merge"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"gitadd",
+				"Git: Add Tag"
+			],
+			[
+				"gitgutter",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git: version",
+				"Git: Version"
+			],
+			[
+				"git",
+				"Github: Issues"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"zsh",
+				"SublimeREPL: Petite Chez Scheme"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pacakge rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Add Channel"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pastry",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"number",
+				"Emmet: Increment Number by 1"
+			],
+			[
+				"mardk",
+				"Set Syntax: Markdown"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"link",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"increment",
+				"Increment Selection"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"anf",
+				"ANF: Rename File"
+			],
+			[
+				"aling",
+				"AlignTab"
+			],
+			[
+				"syntaxbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"restart",
+				"SublimeREPL: Restart REPL"
+			],
+			[
+				"syntaxcoffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"repl",
+				"Set Syntax: Io Repl"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"irc",
+				"Set Syntax: IRC"
+			],
+			[
+				"markown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"coffeesc",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript (Literate)"
+			],
+			[
+				"handlebars",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"al",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"stylu",
+				"Set Syntax: Stylus"
+			],
+			[
+				"stylus",
+				"Set Syntax: Stylus"
+			],
+			[
+				"ejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"color",
+				"Color Picker"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+			"os.system('git --version')",
+			" os.system('git --version')",
+			"os.getenv('PATH')",
+			"import os;",
+			"import os; print os.getenv('PATH')",
+			"view.run_command(\"irc\", {\"server\": \"irc.freenode.net\", \"target\": \"#sublimetext\"})",
+			"view.run_command(\"irc\", {\"server\": \"irc.freenode.net\", \"target\": \"#vikinghug\"})",
+			"view.run_command(\"irc\", {\"server\": \"irc.freenode.net\", \"target\": \"#sublimetext\"})",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/itg/git/irc-client/switchboard-app",
+		"/Users/itg/git/irc-client/switchboard-app/app",
+		"/Users/itg/git/irc-client/switchboard-app/app/components",
+		"/Users/itg/git/irc-client/switchboard-app/app/components/handlebars",
+		"/Users/itg/git/irc-client/switchboard-app/app/components/jquery/dist",
+		"/Users/itg/git/irc-client/switchboard-app/assets",
+		"/Users/itg/git/irc-client/switchboard-app/assets/js",
+		"/Users/itg/git/irc-client/switchboard-app/node_modules/.bin",
+		"/Users/itg/git/irc-client/switchboard-app/node_modules/nodewebkit/bin"
+	],
+	"file_history":
+	[
+		"/Users/itg/git/irc-client/switchboard-app/.bowerrc",
+		"/Users/itg/git/irc-client/switchboard-app/bower.json",
+		"/Users/itg/git/irc-client/switchboard-app/package.json",
+		"/Users/itg/git/irc-client/switchboard-app/app/package.json",
+		"/Users/itg/git/irc-client/switchboard-app/assets/index.html",
+		"/Users/itg/git/irc-client/switchboard-app/app/generated/js/index.js",
+		"/Users/itg/git/irc-client/switchboard-app/data/repos.yaml",
+		"/Users/itg/git/irc-client/switchboard-app/app/js/index.js",
+		"/Users/itg/git/irc-client/switchboard-app/app/generated/index.html",
+		"/Users/itg/git/irc-client/switchboard-app/.sublime-project",
+		"/Users/itg/git/irc-client/switchboard-app/app/index.html",
+		"/Users/itg/git/open-source/peteshow/README.md",
+		"/Users/itg/git/adorable/adorable-avatars-site/app/css/components/text.styl",
+		"/Users/itg/git/adorable/adorable-avatars-site/node_modules/bower/node_modules/mout/lang/createObject.js",
+		"/Users/itg/git/adorable/adorable-avatars-site/node_modules/.bin/cake",
+		"/Users/itg/git/adorable/adorable-avatars-site/app/css/components/helpers.styl",
+		"/Users/itg/git/adorable/adorable-avatars-site/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/node_modules/es6-symbol/test/is-symbol.js",
+		"/Users/itg/git/adorable/adorable-avatars-site/node_modules/colors/test.js",
+		"/Users/itg/git/adorable/adorable-avatars-site/node_modules/colors/colors.js",
+		"/Users/itg/git/adorable/adorable-avatars-site/node_modules/bower/templates/helpers/colors.js",
+		"/Users/itg/git/adorable/adorable-avatars-site/node_modules/gulp-browserify/node_modules/browserify/node_modules/insert-module-globals/node_modules/lexical-scope/node_modules/astw/node_modules/esprima-fb/.eslintrc",
+		"/Users/itg/git/adorable/adorable-avatars-site/app/css/base.styl",
+		"/Users/itg/git/enova/mchammer/config/application.rb",
+		"/Users/itg/git/enova/mchammer/config.ru",
+		"/Users/itg/git/enova/mchammer/vendor/assets/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/Users/itg/git/enova/mchammer/app/views/devise/mailer/confirmation_instructions.html.erb",
+		"/Users/itg/git/enova/mchammer/app/controllers/application_controller.rb",
+		"/Users/itg/git/enova/mchammer/vendor/assets/bower_components/modernizr/feature-detects/css-displaytable.js",
+		"/Users/itg/git/enova/mchammer/node_modules/mocha/node_modules/jade/testing/layout.jade",
+		"/Users/itg/git/enova/mchammer/app/models/loan_agreement.rb",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/LICENSE",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/application.js",
+		"/Users/itg/git/enova/mchammer/node_modules/should/.idea/codeStyleSettings.xml",
+		"/Users/itg/git/enova/mchammer/public/javascripts/styleguide.js",
+		"/Users/itg/git/enova/mchammer/README.md",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/node_modules/insight/node_modules/configstore/configstore.js",
+		"/Users/itg/git/enova/mchammer/app/assets/stylesheets/_manifest.scss",
+		"/Users/itg/git/enova/mchammer/app/assets/stylesheets/lib/_icon-factory.scss",
+		"/Users/itg/git/enova/mchammer/app/assets/stylesheets/config/_colors.scss",
+		"/Users/itg/git/enova/mchammer/app/assets/stylesheets/config/_icons.scss",
+		"/Users/itg/git/enova/mchammer/app/helpers/styleguide_helper.rb",
+		"/Users/itg/git/enova/mchammer/script/deps",
+		"/Users/itg/git/enova/mchammer/script/nuke",
+		"/Users/itg/git/enova/mchammer/script/post_deploy.sh",
+		"/Users/itg/git/enova/mchammer/script/post_setup.sh",
+		"/Users/itg/git/enova/mchammer/script/ruby",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/lib/core/scripts.js",
+		"/Users/itg/git/enova/mchammer/app/assets/stylesheets/partials/_scratch.scss",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/templates/std/conflict-resolved.std",
+		"/Users/itg/git/enova/mchammer/bin/sass-convert",
+		"/Users/itg/git/enova/mchammer/app/views/welcome/index.haml",
+		"/Users/itg/git/enova/mchammer/vendor/assets/bower_components/modernizr/feature-detects/style-scoped.js",
+		"/Users/itg/git/enova/mchammer/app/assets/stylesheets/styleguide.css.scss",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/node_modules/chmodr/test/sync.js",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/node_modules/mout/lang/isKind.js",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/lib/accordion.js.coffee",
+		"/Users/itg/git/enova/mchammer/app/assets/stylesheets/partials/_forms.scss",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/templates/helpers/colors.js",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/node_modules/bower-json/lib/util/isComponent.js",
+		"/Users/itg/git/enova/mchammer/config/initializers/identity_client.rb",
+		"/Users/itg/git/enova/mchammer/app/assets/fonts/mchammer.json",
+		"/Users/itg/git/enova/mchammer/node_modules/browserify/node_modules/browser-resolve/test/modules-coffee.js",
+		"/Users/itg/git/enova/mchammer/bin/mongrel_rpm",
+		"/Users/itg/git/enova/mchammer/node_modules/.bin/handlebars",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/lib/tabs.js.coffee",
+		"/Users/itg/git/enova/mchammer/app/views/styleguide/reg3.html.haml",
+		"/Users/itg/git/enova/mchammer/app/controllers/styleguide_controller.rb",
+		"/Users/itg/git/enova/mchammer/app/views/styleguide/ui_elements/_colors.html.haml",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/mchammer.js.coffee",
+		"/Users/itg/git/enova/mchammer/app/views/step2/new.html.haml",
+		"/Users/itg/git/enova/mchammer/node_modules/bower/node_modules/mout/queryString/setParam.js",
+		"/Users/itg/git/enova/mchammer/node_modules/browserify/test/standalone_events.js",
+		"/Users/itg/git/enova/mchammer/node_modules/gozer/node_modules/phantom/samples/test_phantom_3.coffee",
+		"/Users/itg/git/enova/mchammer/app/views/step1/new.html.haml",
+		"/Users/itg/git/enova/mchammer/app/views/styleguide/pages/example_page.html.haml",
+		"/Users/itg/git/enova/mchammer/app/views/pages/terms_of_use.haml",
+		"/Users/itg/git/enova/mchammer/app/views/layouts/styleguide.html.haml",
+		"/Users/itg/git/enova/mchammer/app/views/styleguide/ui_elements/_1_example_widget.html.haml",
+		"/Users/itg/git/enova/mchammer/node_modules/gozer/node_modules/phantom/node_modules/dnode/node_modules/weak/appveyor.yml",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/lib/validation.js.coffee",
+		"/Users/itg/git/enova/mchammer/node_modules/chai-as-promised/package.json",
+		"/Users/itg/git/enova/mchammer/app/views/email_templates/reset_password.html.haml",
+		"/Users/itg/git/enova/mchammer/vendor/assets/bower_components/prismjs/plugins/autolinker/prism-autolinker.css",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/form_friendship_visibility.js.coffee",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/styleguide/main.coffee",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/validation.js.coffee",
+		"/Users/itg/git/enova/mchammer/app/views/styleguide/pages/reg3.html.haml",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/form_disabler.js.coffee",
+		"/Users/itg/git/enova/mchammer/Gemfile",
+		"/Users/itg/git/enova/mchammer/app/views/layouts/reg3.html.haml",
+		"/Users/itg/git/enova/mchammer/app/views/loan_agreements/new.html.haml",
+		"/Users/itg/git/enova/mchammer/app/assets/javascripts/controllers/step2_controller.js.coffee",
+		"/Users/itg/git/enova/mchammer/app/views/styleguide/pages/draw-money-01-request.html.haml",
+		"/Users/itg/git/enova/mchammer/app/views/step1/edit.html.haml",
+		"/Users/itg/git/enova/mchammer/node_modules/gozer/node_modules/phantom/samples/test_phantom_10.coffee",
+		"/Users/itg/git/enova/mchammer/node_modules/gozer/node_modules/phantom/samples/test_phantom_2.coffee",
+		"/Users/itg/git/enova/mchammer/node_modules/handlebars/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/application.css.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/app/helpers/application_helper.rb",
+		"/Users/itg/git/adorable/node-rails-presentation/app/controllers/application_controller.rb",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/javascripts/application.js",
+		"/Users/itg/git/adorable/node-rails-presentation/config/application.rb",
+		"/Users/itg/git/adorable/node-rails-presentation/config/routes.rb",
+		"/Users/itg/git/adorable/node-rails-presentation/config/environments/test.rb",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/bower/node_modules/handlebars/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/itg/git/adorable/node-rails-presentation/config/initializers/mime_types.rb",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/bower/node_modules/mout/object/bindAll.js",
+		"/Users/itg/git/adorable/node-rails-presentation/bower.json",
+		"/Users/itg/git/adorable/node-rails-presentation/app/views/welcome/index.haml",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/lib/_icon-factory.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/lib/_functions.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/config/_icons.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/config/initializers/assets.rb",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/_manifest.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/partials/_type.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/partials/_layout.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/config/database.yml",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/config/_colors.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/app/assets/stylesheets/partials/_base.scss",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/browserify/node_modules/JSONStream/LICENSE.APACHE2",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/bespoke-bullets/LICENSE",
+		"/Users/itg/git/adorable/node-rails-presentation/Gemfile",
+		"/Users/itg/git/adorable/node-rails-presentation/vendor/assets/bower_components/prism/themes/prism-okaidia.css",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/browserify/node_modules/syntax-error/test/ok.js",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/bower/node_modules/.bin/opn",
+		"/Users/itg/git/adorable/node-rails-presentation/app/views/layouts/application.html.haml",
+		"/Users/itg/git/adorable/node-rails-presentation/node_modules/bower/templates/helpers/colors.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"/Users/itg/git/enova/mchammer",
+			"/Users/itg/git/adorable/node-rails-presentation",
+			"/Users/itg/git/enova/mchammer",
+			"/Users/itg/git/adorable/adorable-avatars/node_modules/gm",
+			"/Users/itg/git/enova/mchammer/",
+			"/Users/itg/git/adorable/adorable-wp-source/app/js",
+			"/Users/itg/git/adorable/adorable-wp-source/",
+			"/Users/itg/git/adorable/adorable-wp-source/app/templates/",
+			"/Users/itg/git/enova/mchammer/",
+			"/Users/itg/git/enova/mchammer/,*.coffee",
+			"/Users/itg/git/adorable/hubot-abott-prod/,*.coffee",
+			"/Users/itg/git/adorable/hubot-abott-prod/,*.js",
+			"/Users/itg/git/adorable/hubot-abott-prod/,*.coffee",
+			"/Users/itg/git/adorable/hubot-abott-prod/*.coffee",
+			"/Users/itg/git/adorable/hubot-abott-prod/**/*.coffee",
+			"/Users/itg/git/kpr/kevinplusrachel.com",
+			"/Users/itg/git/enova/mcjv-frontend/",
+			"node_modules/gulp",
+			"node_modules/(gulp)",
+			"node_modules/",
+			"/node_modules/",
+			"/node_modules/(gulp)",
+			"/node_modules/gulp/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\b\\}\\b",
+			"\\b\\}\\}\\b",
+			"\\b\\}\\b",
+			"\\}",
+			"}",
+			"jquery",
+			"lib",
+			"coffeeInput",
+			"{",
+			"map",
+			"browserify",
+			"coffee",
+			"jquery",
+			"img",
+			"fonts",
+			"\\$",
+			"$",
+			"css",
+			"cleanPath",
+			"baseStaticPath",
+			"ember",
+			"mouse",
+			"VikinghugUI",
+			"qs",
+			"app",
+			"bugs",
+			"travis",
+			"\\#support",
+			"Support",
+			"header",
+			"header-trans",
+			"header-weight",
+			"Question",
+			"padding",
+			"red",
+			"header-font-color",
+			"what",
+			"section",
+			"pow",
+			"(^\\s*\\})$\\n(^ +\\w|^\\w)",
+			"^\\s*\\}$\\n(^ +\\w|^\\w)",
+			"^\\s*\\}$\\n(^ +^\\w)",
+			"^\\s*\\}$\\n(^\\ +^\\w)",
+			"^\\s*\\}$\\n(^\\s+|\\w)",
+			"^\\s*\\}\\n(^\\s*\\w)",
+			"\\}\\n[^\\s+\\b](\\w)",
+			"\\}\\n[^\\s+\\b](\\w|\\d)",
+			"\\}\\n\\s+\\w",
+			"\\n\\s+\\n$\\s+",
+			"\\n\\s+\\n$\\s+$",
+			"\\n\\s+$\\n\\s+$",
+			"\\n\\s+\\n\\s+",
+			"\\r\\s+\\r\\s+",
+			"\\n\\s+\\n\\s+\\n",
+			"\\n\\s+\\n",
+			"select",
+			"compass",
+			"body-bg",
+			"$small",
+			"haml",
+			"$icons-list",
+			"inline-icon",
+			"$icons",
+			"$icons-list",
+			"$icons,",
+			"$icons",
+			"%icon-font",
+			"icon('",
+			"$_icons",
+			"$icons",
+			"icons-list",
+			"$icons",
+			"menuTolerance",
+			"hover-border",
+			"near-mean",
+			"scroll",
+			"absolute",
+			"hover-border",
+			":hover",
+			"body",
+			"( ",
+			"closeMenu",
+			"closeMenuEventually",
+			"handleMenu",
+			"closing",
+			"menuState",
+			"doClose",
+			"closeMenu",
+			"openMenu",
+			"closemenu",
+			"bindEvents",
+			"setupEvents",
+			"openMenu",
+			"closeMenu",
+			"open",
+			"hello",
+			"toggleMenu",
+			"icon",
+			"$grey",
+			"$white",
+			"$green",
+			"$grey",
+			"$light-grey",
+			"e7e8ea",
+			"$grey",
+			"$light-grey",
+			"light-grey",
+			": ",
+			"header",
+			"square-minus",
+			"el.",
+			"replacementText",
+			"expandedTextEls",
+			"tabs",
+			"Tabs",
+			"block",
+			"inline",
+			"icomoon",
+			"icon-",
+			":before {\ncontent:",
+			"kofunction",
+			"header",
+			"weight",
+			"size",
+			"title",
+			"float",
+			"title",
+			"right"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\1\\n\\n\\2",
+			"\\1\\n\\2",
+			"}\\n\\n\\1",
+			"}\\n\\1",
+			"\\n\\1",
+			"\\n\\n",
+			"\\n",
+			"\\n\\n",
+			"\\n",
+			"plumber()",
+			"",
+			"* \\1*",
+			"* $1*",
+			"$1$2",
+			"$1| {{",
+			"$1",
+			"|\\1",
+			"| {{",
+			"jade",
+			"",
+			"\\n#",
+			"'",
+			"~"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/js/index.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP",
+								"Coffeescript"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails",
+								"Ruby"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"CoffeeScript": "JavaScript",
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2040,
+								2040
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP",
+								"Coffeescript"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails",
+								"Ruby"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"CoffeeScript": "JavaScript",
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 722.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2565,
+								2565
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP",
+								"Coffeescript"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails",
+								"Ruby"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"CoffeeScript": "JavaScript",
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1289.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP",
+								"Coffeescript"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails",
+								"Ruby"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"CoffeeScript": "JavaScript",
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 116.0
+	},
+	"output.git-commit":
+	{
+		"height": 116.0
+	},
+	"output.git-push":
+	{
+		"height": 116.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"project": ".sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"settings",
+				"app/css/settings.styl"
+			],
+			[
+				"base.styl",
+				"app/css/base.styl"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"configappli",
+				"config/application.rb"
+			],
+			[
+				"laytapp",
+				"app/views/layouts/application.haml"
+			],
+			[
+				"styleindex",
+				"app/views/styleguide/index.html.haml"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"configroute",
+				"config/routes.rb"
+			],
+			[
+				"layoutstyle",
+				"app/views/layouts/styleguide.html.haml"
+			],
+			[
+				"stylescss",
+				"app/assets/stylesheets/styleguide.css.scss"
+			],
+			[
+				"script",
+				"script/deps"
+			],
+			[
+				"icons",
+				"app/assets/stylesheets/config/_icons.scss"
+			],
+			[
+				"colors",
+				"app/assets/stylesheets/config/_colors.scss"
+			],
+			[
+				"icons.s",
+				"app/assets/stylesheets/config/_icons.scss"
+			],
+			[
+				"mchajsco",
+				"app/assets/javascripts/mchammer.js.coffee"
+			],
+			[
+				"stylereg3",
+				"app/views/styleguide/reg3.html.haml"
+			],
+			[
+				"step2new",
+				"app/views/step2/new.html.haml"
+			],
+			[
+				"appvewstepnew",
+				"app/views/step1/new.html.haml"
+			],
+			[
+				"appasjavmcha",
+				"app/assets/javascripts/mchammer.js.coffee"
+			],
+			[
+				"step1haml",
+				"app/views/step1/new.html.haml"
+			],
+			[
+				"step2haml",
+				"app/views/step2/new.html.haml"
+			],
+			[
+				"manifest",
+				"app/assets/stylesheets/_manifest.scss"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"type",
+				"app/assets/stylesheets/partials/_type.scss"
+			],
+			[
+				"index",
+				"app/views/welcome/index.haml"
+			],
+			[
+				"base",
+				"app/assets/stylesheets/partials/_base.scss"
+			],
+			[
+				"inde",
+				"app/views/welcome/index.haml"
+			],
+			[
+				"ind",
+				"app/views/welcome/index.haml"
+			],
+			[
+				"layout",
+				"app/assets/stylesheets/partials/_layout.scss"
+			],
+			[
+				"manife",
+				"app/assets/stylesheets/_manifest.scss"
+			],
+			[
+				"application.rb",
+				"config/application.rb"
+			],
+			[
+				"applihaml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"applichaml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"bowerthemeprism",
+				"vendor/assets/bower_components/prism/themes/prism-okaidia.css"
+			],
+			[
+				"indexhaml",
+				"app/views/welcome/index.haml"
+			],
+			[
+				"buildpack",
+				".buildpacks"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"typescss",
+				"app/assets/stylesheets/partials/_type.scss"
+			],
+			[
+				"base.scss",
+				"app/assets/stylesheets/partials/_base.scss"
+			],
+			[
+				"bowerrc",
+				".bowerrc"
+			],
+			[
+				"bespojs",
+				"app/assets/javascripts/bespoke.js.coffee"
+			],
+			[
+				"confapp",
+				"config/application.rb"
+			],
+			[
+				"applicahaml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"apprb",
+				"config/application.rb"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"gulpfile",
+				"gulpfile.js"
+			],
+			[
+				"configapplic",
+				"config/application.rb"
+			],
+			[
+				"validation",
+				"app/assets/javascripts/validation.js.coffee"
+			],
+			[
+				"form_disa",
+				"app/assets/javascripts/form_disabler.js.coffee"
+			],
+			[
+				"app.js.coffee",
+				"app/assets/javascripts/app.js.coffee"
+			],
+			[
+				"applicationjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"scratch",
+				"app/assets/stylesheets/partials/_scratch.scss"
+			],
+			[
+				"step1new",
+				"app/views/step1/new.html.haml"
+			],
+			[
+				"styleguide",
+				"app/assets/stylesheets/styleguide.css.scss"
+			],
+			[
+				"stylecolors",
+				"app/views/styleguide/widgets/_colors.html.haml"
+			],
+			[
+				"color",
+				"node_modules/bower/templates/helpers/colors.js"
+			],
+			[
+				"foundationset",
+				"app/assets/stylesheets/config/_foundation-settings.scss"
+			],
+			[
+				"applica",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"airbit.rb",
+				"config/initializers/errbit.rb"
+			],
+			[
+				"webs",
+				"lib/webserver.coffee"
+			],
+			[
+				"conigconfig",
+				"tests/resources/Config/config.ini.php"
+			],
+			[
+				"initsimplfound",
+				"config/initializers/simple_form_foundation.rb"
+			],
+			[
+				"accomo",
+				"data/accomodations.md"
+			],
+			[
+				"config/appli",
+				"config/application.rb"
+			],
+			[
+				"etcregista",
+				"etc/registration.yml"
+			],
+			[
+				"step1newhaml",
+				"app/views/step1/new.html.haml"
+			],
+			[
+				"en.yml",
+				"config/locales/en.yml"
+			],
+			[
+				"step1/new",
+				"app/views/step1/new.html.haml"
+			],
+			[
+				"settingsstyl",
+				"app/css/settings.styl"
+			],
+			[
+				"gulf",
+				"Gulpfile.js"
+			],
+			[
+				"main",
+				"app/css/main.styl"
+			],
+			[
+				"initial",
+				"config/initializers/simple_form_foundation.rb"
+			],
+			[
+				"formscss",
+				"app/assets/stylesheets/partials/_forms.scss"
+			],
+			[
+				"concernstep",
+				"app/models/concerns/step2_validations.rb"
+			],
+			[
+				"dbstruc",
+				"db/structure.sql"
+			],
+			[
+				"modelconcstep",
+				"app/models/concerns/step2_validations.rb"
+			],
+			[
+				"modelregist",
+				"app/models/registration.rb"
+			],
+			[
+				"appmodels/",
+				"app/models/registration.rb"
+			],
+			[
+				"viewstep2",
+				"app/views/step2/new.html.haml"
+			],
+			[
+				"imager",
+				"adorable-avatars/lib/imager.coffee"
+			],
+			[
+				"potato",
+				"adorable-avatars/lib/potato.coffee"
+			],
+			[
+				"setting",
+				"app/css/settings.styl"
+			],
+			[
+				"config/foundation",
+				"config/initializers/simple_form_foundation.rb"
+			],
+			[
+				"formsscss",
+				"app/assets/stylesheets/partials/_forms.scss"
+			],
+			[
+				"index.jade",
+				"app/index.jade"
+			],
+			[
+				"scrip",
+				"script/ruby"
+			],
+			[
+				"scriptruby",
+				"script/ruby"
+			],
+			[
+				"accom",
+				"data/accomodations.md"
+			],
+			[
+				"topbarsty",
+				"app/css/partials/topbar.styl"
+			],
+			[
+				"header",
+				"app/css/partials/header.styl"
+			],
+			[
+				"topbar",
+				".generated/topbar.html"
+			],
+			[
+				"main.styl",
+				"app/css/main.styl"
+			],
+			[
+				".ruby",
+				".ruby-version"
+			],
+			[
+				"ruby-ver",
+				".ruby-version"
+			],
+			[
+				"gitatt",
+				".gitattributes"
+			],
+			[
+				"db/stru",
+				"db/structure.sql"
+			],
+			[
+				"fonts.",
+				"app/assets/stylesheets/config/_fonts.scss"
+			],
+			[
+				"webser",
+				"lib/webserver.coffee"
+			],
+			[
+				"webserver",
+				"lib/webserver.coffee"
+			],
+			[
+				".gitatt",
+				".gitattributes"
+			],
+			[
+				".gitconf",
+				".gitconfig"
+			],
+			[
+				"concerns",
+				"app/models/concerns/step2_validations.rb"
+			],
+			[
+				"guard",
+				"Guardfile"
+			],
+			[
+				"deploy",
+				"config/deploy.yml"
+			],
+			[
+				"section-modul",
+				"app/assets/stylesheets/partials/_sections-modules.scss"
+			],
+			[
+				"basescs",
+				"app/assets/stylesheets/partials/_base.scss"
+			],
+			[
+				"footer",
+				"app/views/shared/_footer.haml"
+			],
+			[
+				"sectionsmodule",
+				"app/assets/stylesheets/partials/_sections-modules.scss"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"navigation",
+				"app/views/shared/_navigation.haml"
+			],
+			[
+				"foundcompontopbar",
+				"vendor/assets/bower_components/foundation/scss/foundation/components/_top-bar.scss"
+			],
+			[
+				"foundation/scss/function",
+				"vendor/assets/bower_components/foundation/scss/foundation/_functions.scss"
+			],
+			[
+				"styleguscss",
+				"app/assets/stylesheets/styleguide.css.scss"
+			],
+			[
+				"stylguhelp",
+				"app/helpers/styleguide_helper.rb"
+			],
+			[
+				"home",
+				"app/templates/home.jade"
+			],
+			[
+				"post.jade",
+				"app/templates/post.jade"
+			],
+			[
+				"eploy",
+				"bin/deploy"
+			],
+			[
+				"appcoffee",
+				"app/js/views/application.coffee"
+			],
+			[
+				"home.jade",
+				"app/templates/home.jade"
+			],
+			[
+				"routepost",
+				"app/js/routes/post.coffee"
+			],
+			[
+				"disqus",
+				"app/js/views/disqus.coffee"
+			],
+			[
+				"postjade",
+				"app/templates/post.jade"
+			],
+			[
+				"gitignore",
+				".gitignore"
+			],
+			[
+				"htaccess",
+				".htaccess"
+			],
+			[
+				"themesindex.php",
+				"wordpress/wp-content/themes/adorable/index.php"
+			],
+			[
+				"index.php",
+				"wordpress/index.php"
+			],
+			[
+				".htaccess",
+				"wordpress/.htaccess"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
