@@ -1,15 +1,5 @@
 // Gulpfile.js
 // Require the needed packages
-<<<<<<< HEAD
-var gulp       = require('gulp'),
-    gutil      = require('gulp-util'),
-    clean      = require('gulp-clean'),
-    coffee     = require('gulp-coffee'),
-    stylus     = require('gulp-stylus'),
-    rename     = require('gulp-rename'),
-    ejs        = require("gulp-ejs"),
-    path       = require("path");
-=======
 var gulp        = require('gulp'),
     browserify  = require('gulp-browserify'),
     gutil       = require('gulp-util'),
@@ -23,7 +13,6 @@ var gulp        = require('gulp'),
     del         = require('del'),
     runSequence = require('run-sequence'),
     sourcemaps  = require('gulp-sourcemaps');
->>>>>>> 32c791f... initial commit
 
 var baseAppPath = path.join(__dirname,  'assets'),
     baseStaticPath = path.join(__dirname, 'app'),
@@ -31,14 +20,6 @@ var baseAppPath = path.join(__dirname,  'assets'),
     baseCssPath = path.join(baseAppPath, 'css');
 
 var paths = {
-<<<<<<< HEAD
-  cssInput: path.join(baseCssPath, 'main.styl'),
-  cssOutput: path.join(baseStaticPath, 'css'),
-  coffeeInput: path.join(baseJsPath, 'index.coffee'),
-  coffeeOutput: path.join(baseStaticPath, 'js'),
-  ejsPath:  [path.join(baseAppPath, '**', '*.ejs')],
-  assetsBasePath: baseAppPath,
-=======
   cleanPath      : [
     path.join(baseStaticPath, 'css', '**', '*'),
     path.join(baseStaticPath, 'fonts', '**', '*'),
@@ -52,11 +33,11 @@ var paths = {
   coffeeOutput   : path.join(baseStaticPath, 'js'),
   ejsPath        : [path.join(baseAppPath, '**', '*.ejs')],
   assetsBasePath : baseAppPath,
->>>>>>> 32c791f... initial commit
   assetsPaths: [
     path.join(baseAppPath, 'img', '**', '*'),
     path.join(baseAppPath, 'fonts', '**', '*'),
-    path.join(baseAppPath, '**', '*.html')
+    path.join(baseAppPath, '**', '*.html'),
+    path.join(baseAppPath, 'package.json')
   ],
   assetsOutput: baseStaticPath
 };
@@ -69,7 +50,7 @@ var watchPaths = {
   coffee: [path.join(baseJsPath, '**', '*.coffee')],
   assets: paths.assetsPaths,
   ejs: paths.ejsPath
-}
+};
 
 var testFiles = [
   'generated/js/app.js',
@@ -117,18 +98,12 @@ gulp.task('stylus', function () {
 //
 
 gulp.task('coffee', function() {
-<<<<<<< HEAD
-  gulp.src(paths.coffeeInput)
-    .pipe(coffee({bare: true})
-      .on('error', gutil.log)
-=======
   return gulp.src(paths.coffeeInput, { read: false })
     .pipe(browserify({
       basedir: __dirname,
       transform: ['coffeeify'],
       extensions: ['.coffee']
     }).on('error', gutil.log)
->>>>>>> 32c791f... initial commit
       .on('error', gutil.beep))
     .pipe(rename('app.js'))
     .pipe(gulp.dest(paths.coffeeOutput));
