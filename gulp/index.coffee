@@ -10,9 +10,10 @@ ejsTask      = require("./tasks/ejs")
 cssTask      = require("./tasks/css")
 jsTask       = require("./tasks/js")
 assetsTask   = require("./tasks/assets")
+symlinkTask  = require("./tasks/symlink")
 # serverTask   = require("./tasks/server")
 testTask     = require("./tasks/test")
 watchTask    = require("./tasks/watch")
 
 gulp.task "default", (callback) ->
-  runSequence "clean", "ejs", "css", "js", "assets", callback
+  runSequence "clean", "ejs", "css", "js", "assets", "symlink", callback

@@ -34,6 +34,10 @@ paths.ejs =
   dest: path.join(paths.BASE_GENERATED_PATH)
   watch: path.join(paths.BASE_SRC_PATH, '**', '*.ejs')
 
+paths.symlink =
+  src: path.join(paths.ROOT_PATH, 'node_modules')
+  dest: path.join(paths.BASE_GENERATED_PATH, 'node_modules')
+
 paths.test = ''
 
 module.exports = paths
