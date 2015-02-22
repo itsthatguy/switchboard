@@ -6,9 +6,9 @@ setPath = (p, files) ->
 # Symlink our stuff into the wordpress structure
 gulp.task "symlink", ->
   # wordpress/heroku/ember files
-  gulp.src(paths.symlink.src)
+  gulp.src(config.symlink.src)
     .pipe(plumber())
-    .pipe symlink(setPath(paths.symlink.dest, paths.symlink.src), {
+    .pipe symlink(setPath(config.symlink.dest, config.symlink.src), {
       force: true
       relative: true
     })

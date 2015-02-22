@@ -1,3 +1,3 @@
 del = require('del')
 
-gulp.task 'clean', -> del(paths.clean)
+gulp.task 'clean', -> del(config.clean)

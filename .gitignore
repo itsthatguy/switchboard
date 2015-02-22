@@ -3,3 +3,5 @@ app/
 .DS_Store
 .generated/
 bower_components/
+cache/
+build/

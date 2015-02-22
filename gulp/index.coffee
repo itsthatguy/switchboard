@@ -2,7 +2,7 @@ global.gulp    = require("gulp")
 global.gutil   = require("gulp-util")
 global.plumber = require("gulp-plumber")
 global.path    = require("path")
-global.paths   = require("./paths")
+global.config  = require("./config")
 runSequence    = require("run-sequence")
 
 cleanTask    = require("./tasks/clean")
