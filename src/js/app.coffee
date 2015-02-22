@@ -8,14 +8,13 @@ MyApp = Ember.Application.extend
     isMac: os.type() is "Darwin"
     isLinux: os.type() is "Linux"
 
-App = MyApp.create()
+window.App = MyApp.create()
 $(window).on "online offline", ->
   App.set "online", navigator.onLine
   return
 
 App.Router.map ->
   @resource "chat", { path: "/chat/:name" }
-
 
 # put your routes here
 App.IndexRoute = Ember.Route.extend()
