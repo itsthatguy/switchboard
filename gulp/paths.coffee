@@ -5,18 +5,18 @@ paths.BASE_GENERATED_PATH = path.join(paths.ROOT_PATH, 'app')
 
 paths.clean = [
   'app/*'
+  '!app/package.json'
   '!app/components'
 ]
 
 paths.assets =
   src: [
-    path.join(paths.BASE_SRC_PATH, 'img', '**', '*'),
-    path.join(paths.BASE_SRC_PATH, 'fonts', '**', '*'),
-    path.join(paths.BASE_SRC_PATH, '**', '*.html'),
-    path.join(paths.BASE_SRC_PATH, 'package.json')
+    path.join(paths.BASE_SRC_PATH, 'img', '**', '*')
+    path.join(paths.BASE_SRC_PATH, 'fonts', '**', '*')
+    path.join(paths.BASE_SRC_PATH, '**', '*.html')
   ]
   dest: paths.BASE_GENERATED_PATH
-  watch: paths.BASE_SRC_PATH
+  watch: path.join(paths.BASE_SRC_PATH, '**', '*')
 
 paths.css =
   src: path.join(paths.BASE_SRC_PATH, 'css', 'main.styl')
