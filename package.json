@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "gulp watch",
-    "start": "node_modules/.bin/nodewebkit ./app"
+    "start": "node_modules/.bin/nodewebkit ./.generated"
   },
   "devDependencies": {
     "chai": "^1.9.1",
