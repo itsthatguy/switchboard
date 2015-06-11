@@ -1,4 +1,5 @@
 module.exports = {
+  target: 'node-webkit',
   devtool: '#source-map',
   output: {
     filename: '[name].js',

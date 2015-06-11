@@ -1,0 +1,6 @@
+node_modules/
+temp/
+*.dump
+.DS_Store
+!test/*.js
+!test/

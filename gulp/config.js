@@ -11,7 +11,10 @@ var vendorAssetsOther = [];
 config.VENDOR_ASSETS = $.mainBowerFiles().concat(vendorAssetsOther, envAssets.vendor);
 
 config.assets = {
-  src: config.PROJECT_ROOT + '/src/**/*.{png,jpg,ttf,html,ico,svg}',
+  src: [
+    config.PROJECT_ROOT + '/src/**/*.{png,jpg,ttf,html,ico,svg}',
+    config.PROJECT_ROOT + '/package.json',
+  ],
   dest: config.DIST
 };
 
@@ -129,7 +132,10 @@ config.serve = {
 config.watch = {
   assets: {
     task: 'assets',
-    src: path.join(config.PROJECT_ROOT, '/src/**/*.{png,jpg,html,ttf,ico,svg}')
+    src: [
+      path.join(config.PROJECT_ROOT, '/src/**/*.{png,jpg,ttf,html,ico,svg}'),
+      path.join(config.PROJECT_ROOT, '/package.json')
+    ],
   },
   assetsData: {
     task: 'assets:data',
