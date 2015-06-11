@@ -1,2 +1,3 @@
-require('coffee-script/register');
-require('./gulp/index.coffee');
+'use strict';
+
+require('./gulp/index');

@@ -1,5 +1,6 @@
 node_modules/
-app/
+temp/
+*.dump
 .DS_Store
-.generated/
-bower_components/
+!test/*.js
+!test/
