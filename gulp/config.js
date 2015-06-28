@@ -64,7 +64,7 @@ config.jade = {
 };
 
 config.js = {
-  src: config.PROJECT_ROOT + '/src/app/index.js',
+  src: config.PROJECT_ROOT + '/src/app/index.jsx',
   dest: config.DIST,
   inject: {
     options: {
@@ -151,7 +151,7 @@ config.watch = {
   },
   js: {
     task: 'js',
-    src: config.PROJECT_ROOT + '/src/**/*.js'
+    src: config.PROJECT_ROOT + '/src/**/*.{js,jsx}'
   },
   lint: {
     task: 'lint',

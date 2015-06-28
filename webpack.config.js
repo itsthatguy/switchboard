@@ -8,13 +8,18 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       }
     ]
   },
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['', '.js', '.jsx']
+  },
+  externals: {
+    'flowdock': 'flowdock',
+    'react': 'React',
+    'reflux': 'Reflux'
   }
 };
