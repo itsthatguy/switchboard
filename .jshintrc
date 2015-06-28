@@ -35,6 +35,8 @@
     "expect": false
   },
   "predef": [
+    "window",
+    "document",
     "require",
     "__dirname",
     "gulp",

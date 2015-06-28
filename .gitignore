@@ -4,3 +4,5 @@ temp/
 .DS_Store
 !test/*.js
 !test/
+dist/
+bower_components/
