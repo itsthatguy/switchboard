@@ -1,5 +1,5 @@
 doctype html
-html(ng-app="switchboard-app")
+html
   head
     title your app
     //- vendor:css
@@ -10,7 +10,7 @@ html(ng-app="switchboard-app")
     link(href="./index.css" rel="stylesheet" type="text/css")
     link(href="images/icon.png" rel="icon" type="image/png")
   body
-    div(ui-view)
+    #content
     //- vendor:js
     //- endinject
     script(src="./main.js")
