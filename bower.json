@@ -1,0 +1,18 @@
+{
+  "name": "switchboard-app",
+  "version": "0.0.0",
+  "authors": [
+    "Kevin Altman <kevin@itsthatguy.com>"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1",
+    "jquery": "~1.11.1",
+    "react": "~0.13.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.4"
+  },
+  "resolutions": {
+    "jquery": "~1.11.1"
+  }
+}
