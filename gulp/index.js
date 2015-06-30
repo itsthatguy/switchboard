@@ -10,7 +10,8 @@ global.$ = require('gulp-load-plugins')({
     'del',
     'main-bower-files',
     'browser-sync',
-    'tosource']
+    'tosource',
+    'node-webkit-builder']
 });
 
 require('./config');
