@@ -6,6 +6,6 @@ export default Reflux.createActions([
   'disconnect',
   'join',
   'leave',
-  'message',
+  'receiveMessage',
   'sendMessage'
 ]);

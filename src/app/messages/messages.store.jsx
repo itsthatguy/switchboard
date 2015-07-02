@@ -27,6 +27,6 @@ export default Reflux.createStore({
   },
 
   onSendMessage (message) {
-    global.client.message({channel: '#test', message: message});
+    global.client.sendMessage({channel: '#test', message: message});
   }
 });

@@ -34,7 +34,7 @@ export default class IrcAdapter extends BaseAdapter {
           message : data.args[1]
         };
 
-        MessagesActions.message(payload);
+        MessagesActions.receiveMessage(payload);
         break;
       }
       case 'JOIN': {
