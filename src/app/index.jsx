@@ -17,23 +17,12 @@
 //     - nick
 //     - channel?
 //   - systemMessage (admin/op/voice/nick change)
+// import Shim from './shim';
+import MessagesList from './messages/messages';
+import Chat from './adapters/adapters';
 
-import Messages from './messages/messages.jsx';
-import Chat from './chat_adapters/chat.adapters.jsx';
+let global = global || window;
 
-let client = new Chat('irc')();
+global.client = new Chat('mock');
 
-React.render(<Messages />, document.getElementById('content'));
-
-/**
- * Browser-dev shim
- * shim all native modules here
- */
-
-(function(){
-  function shim(name){ // jshint ignore:line
-    // put shims for native-requires in here, for browser testing
-  }
-
-  window.nativeRequire = (typeof require !== 'undefined') ? require : shim;
-})();
+React.render(<MessagesList />, document.getElementById('content'));

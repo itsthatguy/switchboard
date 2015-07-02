@@ -1,9 +1,10 @@
-let Reflux = window.require('reflux');
+import Reflux from 'reflux';
 import Message from './messages.message';
+import MessagesInput from './messages.input.jsx';
 import MessagesStore from './messages.store';
 
 export default React.createClass({
-  displayName: 'ChatApp',
+  displayName: 'MessagesList',
 
   mixins: [
     Reflux.listenTo(MessagesStore, 'onChange')
@@ -34,6 +35,7 @@ export default React.createClass({
             <p><span>{data.user}</span>: {data.message}</p>
           )
         })}
+        <MessagesInput />
       </div>
     )
   }

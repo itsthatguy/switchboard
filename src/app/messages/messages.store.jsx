@@ -1,4 +1,4 @@
-let Reflux = window.require('reflux');
+import Reflux from 'reflux';
 
 import MessagesActions from './messages.actions';
 
@@ -24,5 +24,9 @@ export default Reflux.createStore({
 
   onMessage (data) {
     this.trigger(data);
+  },
+
+  onSendMessage (message) {
+    global.client.message({channel: '#test', message: message});
   }
 });
