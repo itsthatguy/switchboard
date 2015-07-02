@@ -23,7 +23,7 @@ export default Reflux.createStore({
     // User will see a leave messages
   },
 
-  onRecieveMessage (data) {
+  onAddMessage (data) {
     this.trigger(data);
   },
 

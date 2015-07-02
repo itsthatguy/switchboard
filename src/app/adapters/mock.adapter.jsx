@@ -12,7 +12,7 @@ export default class ChatMock extends BaseAdapter {
       let randomNumber = Math.floor(Math.random() * 10000) - 1;
       let n = Math.floor(Math.random() * users.length);
       let user = users[n];
-      this.sendMessage({channel: '#test', user: user, message: `hello ${randomNumber}`});
+      this.addMessage({channel: '#test', user: user, message: `hello ${randomNumber}`});
     }, 3000);
   }
 
@@ -32,8 +32,8 @@ export default class ChatMock extends BaseAdapter {
 
   }
 
-  receiveMessage (data) {
-
+  addMessage (data) {
+    MessagesActions.addMessage(data);
   }
 
   sendMessage (data) {
