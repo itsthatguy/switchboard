@@ -70,7 +70,8 @@ config.js = {
     options: {
       transform: function() {
         var configContents = require(path.join(config.PROJECT_ROOT, 'src/config/environment', environment + '.js'));
-        return '.constant(\'CONFIG\', ' + $.tosource(configContents) + ')';
+        configContents.ENV = environment;
+        return 'window.CONFIG =' + $.tosource(configContents) + ';';
       },
       starttag: '// injectconfig',
       endtag: '// endinject'

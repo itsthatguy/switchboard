@@ -21,10 +21,8 @@ import Shim from './shim';
 import MessagesList from './messages/messages';
 import Chat from './adapters/adapters';
 
-let global = global || window;
-
 // Set global.shim to true if running in the browser
-global.shim = true;
+if (window.nativeRequire) { window.global = window; }
 global.client = new Chat('mock');
 
 React.render(<MessagesList />, document.getElementById('content'));
