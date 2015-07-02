@@ -17,12 +17,14 @@
 //     - nick
 //     - channel?
 //   - systemMessage (admin/op/voice/nick change)
-// import Shim from './shim';
+import Shim from './shim';
 import MessagesList from './messages/messages';
 import Chat from './adapters/adapters';
 
 let global = global || window;
 
+// Set global.shim to true if running in the browser
+global.shim = true;
 global.client = new Chat('mock');
 
 React.render(<MessagesList />, document.getElementById('content'));
