@@ -17,7 +17,6 @@
 //     - nick
 //     - channel?
 //   - systemMessage (admin/op/voice/nick change)
-import Shim from './shim';
 import MessagesList from './messages/messages';
 import Chat from './adapters/adapters';
 
