@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "ircdjs": "0.0.17",
     "node-webkit-builder": "^1.0.11",
     "nodewebkit": "^0.11.6"
   },
