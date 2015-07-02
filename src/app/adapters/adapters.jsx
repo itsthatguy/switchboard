@@ -1,4 +1,4 @@
-import IrcAdapter from './irc.adapter';
+import IrcAdapter  from './irc.adapter';
 import MockAdapter from './mock.adapter';
 
 export default function(name) {

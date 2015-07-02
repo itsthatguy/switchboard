@@ -1,4 +1,4 @@
-import BaseAdapter from './base.adapter';
+import BaseAdapter     from './base.adapter';
 import MessagesActions from '../messages/messages.actions';
 
 export default class ChatMock extends BaseAdapter {

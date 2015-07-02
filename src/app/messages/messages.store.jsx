@@ -1,6 +1,6 @@
 'use strict';
 
-import Reflux from 'reflux';
+import Reflux          from 'reflux';
 import MessagesActions from './messages.actions';
 
 // Store

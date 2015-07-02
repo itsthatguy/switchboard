@@ -18,9 +18,9 @@
 //     - channel?
 //   - systemMessage (admin/op/voice/nick change)
 
-import Messages from './messages/messages.jsx';
-import MessageInput from './message_input/message_input.jsx';
-import Chat from './adapters/adapters.jsx';
+import Messages     from './messages/messages';
+import MessageInput from './message_input/message_input';
+import Chat         from './adapters/adapters';
 
 if (window.nativeRequire) { window.global = window; }
 global.client = new Chat('mock');
