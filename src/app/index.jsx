@@ -19,11 +19,34 @@
 //   - systemMessage (admin/op/voice/nick change)
 
 import Messages from './messages/messages.jsx';
+import MessageInput from './message_input/message_input.jsx';
 import Chat from './chat_adapters/chat.adapters.jsx';
 
 let client = new Chat('irc')();
 
-React.render(<Messages />, document.getElementById('content'));
+// Temporary app wrapper
+let App = React.createClass({
+  render () {
+    return (
+      <div className='app__wrapper'>
+        <div className='nav__wrapper'>
+          Top nav will go here
+        </div>
+        <div className='content__wrapper'>
+          <div className='sidebar__wrapper'>
+            Sidebar(s) will go here
+          </div>
+          <div className='messages__wrapper'>
+            <Messages />
+            <MessageInput />
+          </div>
+        </div>
+      </div>
+    );
+  }
+});
+
+React.render(<App />, document.getElementById('content'));
 
 /**
  * Browser-dev shim

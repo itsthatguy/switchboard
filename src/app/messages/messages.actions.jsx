@@ -1,3 +1,5 @@
+'use strict';
+
 let Reflux = window.require('reflux');
 
 // Actions
@@ -6,5 +8,6 @@ export default Reflux.createActions([
   'disconnect',
   'join',
   'leave',
-  'message'
+  'recieveMessage',
+  'sendMessage'
 ]);

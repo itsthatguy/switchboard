@@ -1,18 +1,19 @@
+/* global React */
+'use strict';
+
 let Reflux = window.require('reflux');
-import Message from './messages.message';
-import MessagesStore from './messages.store';
+import Message from './messages.message.jsx';
+import MessagesStore from './messages.store.jsx';
 
 export default React.createClass({
-  displayName: 'ChatApp',
+  displayName: 'ChatMessages',
 
   mixins: [
     Reflux.listenTo(MessagesStore, 'onChange')
   ],
 
   getInitialState () {
-    return {
-      messages: []
-    }
+    return { messages: [] }
   },
 
   componentWillMount () {
@@ -21,9 +22,7 @@ export default React.createClass({
 
   onChange (newMessage) {
     let obj = this.state.messages.concat([newMessage]);
-    this.setState({
-      messages: obj
-    });
+    this.setState({ messages: obj });
   },
 
   render () {
