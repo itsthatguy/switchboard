@@ -18,11 +18,13 @@
 //     - channel?
 //   - systemMessage (admin/op/voice/nick change)
 
-import Messages from './messages/messages.jsx';
-import MessageInput from './message_input/message_input.jsx';
-import Chat from './chat_adapters/chat.adapters.jsx';
+import Messages     from './messages/messages';
+import MessageInput from './message_input/message_input';
+import Chat         from './adapters/adapters';
 
-let client = new Chat('irc')();
+if (window.nativeRequire) { window.global = window; }
+global.client = new Chat('mock');
+// global.client = new Chat('irc');
 
 // Temporary app wrapper
 let App = React.createClass({
@@ -48,15 +50,3 @@ let App = React.createClass({
 
 React.render(<App />, document.getElementById('content'));
 
-/**
- * Browser-dev shim
- * shim all native modules here
- */
-
-(function(){
-  function shim(name){ // jshint ignore:line
-    // put shims for native-requires in here, for browser testing
-  }
-
-  window.nativeRequire = (typeof require !== 'undefined') ? require : shim;
-})();

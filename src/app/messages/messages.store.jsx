@@ -1,6 +1,6 @@
 'use strict';
 
-let Reflux = window.require('reflux');
+import Reflux          from 'reflux';
 import MessagesActions from './messages.actions';
 
 // Store
@@ -23,11 +23,12 @@ export default Reflux.createStore({
     // User will see a leave messages
   },
 
-  onRecieveMessage (data) {
+  onAddMessage (data) {
     this.trigger(data);
   },
 
-  onSendMessage (data) {
-    console.log('New message:', data);
+  onSendMessage (message) {
+    global.client.sendMessage({channel: '#test', message: message});
+    console.log('New message:', message);
   }
 });

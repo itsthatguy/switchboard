@@ -1,9 +1,8 @@
 /* global React */
 'use strict';
 
-let Reflux = window.require('reflux');
-import Message from './messages.message.jsx';
-import MessagesStore from './messages.store.jsx';
+import Reflux        from 'reflux';
+import MessagesStore from './messages.store';
 
 export default React.createClass({
   displayName: 'ChatMessages',

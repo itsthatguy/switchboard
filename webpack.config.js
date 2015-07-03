@@ -19,7 +19,6 @@ module.exports = {
   },
   externals: {
     'flowdock': 'flowdock',
-    'react': 'React',
-    'reflux': 'Reflux'
+    'react': 'React'
   }
 };

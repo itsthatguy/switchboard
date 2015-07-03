@@ -13,5 +13,21 @@ html
     #content
     //- vendor:js
     //- endinject
+    script.
+      (function(){
+        function shim(name){ // jshint ignore:line
+          // put shims for native-requires in here, for browser testing
+
+          switch (name) {
+            case 'irc': {
+              return {};
+
+            }
+            default: { return; }
+          }
+        }
+        window.nativeRequire = (typeof require !== 'undefined') ? require : shim; //jshint ignore:line
+      })();
+
     script(src="./main.js")
 
