@@ -22,6 +22,18 @@ export default React.createClass({
     // get all messages
   },
 
+  componentWillUpdate () {
+    let node = this.getDOMNode();
+    this.shouldScrollBottom = node.scrollTop + node.offsetHeight === node.scrollHeight;
+  },
+
+  componentDidUpdate () {
+    if (this.shouldScrollBottom) {
+      let node = this.getDOMNode();
+      node.scrollTop = node.scrollHeight
+    }
+  },
+
   onChange (newMessage) {
     let obj = this.state.messages.concat([newMessage]);
     this.setState({ messages: obj });
