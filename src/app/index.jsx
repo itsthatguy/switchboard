@@ -18,6 +18,9 @@
 //     - channel?
 //   - systemMessage (admin/op/voice/nick change)
 
+// injectconfig
+// endinject
+
 import Messages        from './messages/messages';
 import MessagesInput   from './messages/input/input';
 import MessagesNav     from './messages/nav/nav';
