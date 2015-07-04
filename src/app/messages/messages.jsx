@@ -1,8 +1,11 @@
 /* global React */
 'use strict';
 
-import Reflux        from 'reflux';
-import MessagesStore from './messages.store';
+import Reflux         from 'reflux';
+import Styles         from './messages.styles'
+import MessagesStore  from './messages.store';
+import Message        from './message'
+
 
 export default React.createClass({
   displayName: 'ChatMessages',
@@ -26,10 +29,10 @@ export default React.createClass({
 
   render () {
     return (
-      <div>
-        {this.state.messages.map((data) => {
+      <div style={Styles.Messages.Wrapper} className='messages__list'>
+        {this.state.messages.map((data, key) => {
           return (
-            <p><span>{data.user}</span>: {data.message}</p>
+            <Message user={data.user} message={data.message} key={key} />
           )
         })}
       </div>

@@ -32,12 +32,10 @@ let App = React.createClass({
     return (
       <div className='app__wrapper'>
         <div className='nav__wrapper'>
-          Top nav will go here
+          SwitchBoard
         </div>
         <div className='content__wrapper'>
-          <div className='sidebar__wrapper'>
-            Sidebar(s) will go here
-          </div>
+          <div className='sidebar__wrapper'></div>
           <div className='messages__wrapper'>
             <Messages />
             <MessageInput />
