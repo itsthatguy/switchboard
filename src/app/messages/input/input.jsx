@@ -1,7 +1,7 @@
 /* global React */
 'use strict';
 
-import Actions from '../messages/messages.actions.jsx';
+import Actions from '../messages.actions';
 
 export default React.createClass({
   displayName: 'MessagesInput',

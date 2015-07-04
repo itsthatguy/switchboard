@@ -1,8 +1,25 @@
-
 @import '../styles/resets';
 @import '../styles/colors';
 @import '../styles/typography';
-@import '../styles/layout';
+
+// Layout
+#content,
+.app__wrapper,
+.content__wrapper {
+  display: flex;
+}
+
+#content,
+.app__wrapper {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.content__wrapper {
+  flex-flow: row;
+  flex: 1;
+}
 
 /* Do not remove this comments bellow.
    It's the markers used by gulp-inject to inject

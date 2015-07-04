@@ -1,5 +1,5 @@
+'use strict';
 
-import React from 'react'
 import Styles from './messages.styles'
 
 export default React.createClass({

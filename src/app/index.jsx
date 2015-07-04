@@ -18,9 +18,14 @@
 //     - channel?
 //   - systemMessage (admin/op/voice/nick change)
 
-import Messages     from './messages/messages';
-import MessageInput from './message_input/message_input';
-import Chat         from './adapters/adapters';
+// injectconfig
+// endinject
+
+import Messages        from './messages/messages';
+import MessagesInput   from './messages/input/input';
+import MessagesNav     from './messages/nav/nav';
+import MessagesSidebar from './messages/sidebar/sidebar';
+import Chat            from './adapters/adapters';
 
 if (window.nativeRequire) { window.global = window; }
 global.client = new Chat('mock');
@@ -31,14 +36,12 @@ let App = React.createClass({
   render () {
     return (
       <div className='app__wrapper'>
-        <div className='nav__wrapper'>
-          SwitchBoard
-        </div>
+        <MessagesNav />
         <div className='content__wrapper'>
-          <div className='sidebar__wrapper'></div>
+          <MessagesSidebar />
           <div className='messages__wrapper'>
             <Messages />
-            <MessageInput />
+            <MessagesInput />
           </div>
         </div>
       </div>
