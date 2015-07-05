@@ -1,13 +1,13 @@
 .messages__wrapper {
   display: flex;
-  width: 100%;
   flex-flow: column;
   padding: 1rem;
+  width: 100%;
 
   > .messages__list {
+    flex: 1;
     height: auto;
     max-height: 100%;
-    flex: 1;
   }
 
   > .message__input {
