@@ -3,12 +3,14 @@
   width: 100%;
   flex-flow: column;
   padding: 1rem;
-}
-.messages__wrapper > .messages__list {
-  height: auto;
-  max-height: 100%;
-  flex: 1;
-}
-.messages__wrapper > .message__input {
-  min-height: 4rem;
+
+  > .messages__list {
+    height: auto;
+    max-height: 100%;
+    flex: 1;
+  }
+
+  > .message__input {
+    min-height: 4rem;
+  }
 }
