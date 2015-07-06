@@ -21,11 +21,11 @@
 // injectconfig
 // endinject
 
-import Messages        from './messages/messages';
-import MessagesInput   from './messages/input/input';
-import MessagesNav     from './messages/nav/nav';
-import MessagesSidebar from './messages/sidebar/sidebar';
-import Chat            from './adapters/adapters';
+import Messages        from './chat/messages/messages';
+import MessagesInput   from './chat/messages/input/input';
+import MessagesNav     from './chat/nav/nav';
+import MessagesSidebar from './chat/sidebar/sidebar';
+import Chat            from './chat/adapters/adapters';
 
 if (window.nativeRequire) { window.global = window; }
 global.client = new Chat('mock');
