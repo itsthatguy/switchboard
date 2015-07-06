@@ -1,3 +1,4 @@
+/* global $ */
 'use strict';
 
 gulp.task('build', ['default'], function() {
