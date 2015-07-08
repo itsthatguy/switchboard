@@ -5,12 +5,11 @@
     "Kevin Altman <kevin@itsthatguy.com>"
   ],
   "dependencies": {
-    "foundation": "~5.5.1",
     "jquery": "~1.11.1",
-    "react": "~0.13.3"
+    "react": "~0.13.3",
+    "chance": "~0.7.6"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "resolutions": {
     "jquery": "~1.11.1"
   }

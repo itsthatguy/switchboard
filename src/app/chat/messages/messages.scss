@@ -1,0 +1,16 @@
+.messages__wrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 1rem;
+  width: 100%;
+
+  > .messages__list {
+    flex: 1;
+    height: auto;
+    max-height: 100%;
+  }
+
+  > .message__input {
+    min-height: 4rem;
+  }
+}
