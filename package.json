@@ -66,6 +66,6 @@
   "scripts": {
     "postinstall": "bower install && gulp",
     "start": "node_modules/.bin/nodewebkit ./dist",
-    "test": "mocha"
+    "test": "$(npm bin)/gulp lint"
   }
 }
