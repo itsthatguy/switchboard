@@ -1,6 +1,4 @@
 /* global config, $ */
-'use strict';
-
 // Watching the things:
 // gulp.watch is limited and doesn't observe files that
 // are added after the task is run, so we use gulp-watch

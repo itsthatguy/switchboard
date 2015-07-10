@@ -11,11 +11,11 @@ export default class IrcAdapter extends BaseAdapter {
     this.debug    = true;
     this.channels = ['#test'];
 
-    this.client = new IRC.Client(server, nick, {
-      showErrors : debug,
-      debug      : debug,
-      port       : port,
-      channels   : channels
+    this.client = new IRC.Client(this.server, this.nick, {
+      showErrors : this.debug,
+      debug      : this.debug,
+      port       : this.port,
+      channels   : this.channels
     })
     .addListener('raw', function (message) {
       this.eventHandler(message);

@@ -1,13 +1,11 @@
 /* global React */
-'use strict';
-
 import Actions from '../messages.actions';
 
 export default React.createClass({
   displayName: 'MessagesInput',
 
   getInitialState () {
-    return { value: '' }
+    return { value: '' };
   },
 
   handleSubmit (e) {
@@ -32,7 +30,7 @@ export default React.createClass({
         padding: '1rem',
         color: '#333333'
       }
-    }
+    };
 
     return (
       <div style={styles.wrapper} className='message__input'>

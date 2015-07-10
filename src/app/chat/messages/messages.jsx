@@ -1,11 +1,8 @@
 /* global React */
-'use strict';
-
 import Reflux         from 'reflux';
-import Styles         from './messages.styles'
+import Styles         from './messages.styles';
 import MessagesStore  from './messages.store';
-import Message        from './message'
-
+import Message        from './message';
 
 export default React.createClass({
   displayName: 'ChatMessages',
@@ -15,7 +12,7 @@ export default React.createClass({
   ],
 
   getInitialState () {
-    return { messages: [] }
+    return { messages: [] };
   },
 
   componentWillMount () {
@@ -30,7 +27,7 @@ export default React.createClass({
   componentDidUpdate () {
     if (this.shouldScrollBottom) {
       let node = this.getDOMNode();
-      node.scrollTop = node.scrollHeight
+      node.scrollTop = node.scrollHeight;
     }
   },
 
@@ -45,9 +42,9 @@ export default React.createClass({
         {this.state.messages.map((data, key) => {
           return (
             <Message user={data.user} message={data.message} key={key} />
-          )
+          );
         })}
       </div>
-    )
+    );
   }
 });

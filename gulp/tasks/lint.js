@@ -1,10 +1,9 @@
 /* global config, $ */
-'use strict';
-
 gulp.task('lint', function() {
   return gulp.src(config.lint.src)
   .pipe($.plumber())
-  .pipe($.jshint())
-  .pipe($.jshint.reporter(config.lint.reporter, { verbose: true }))
+  .pipe($.eslint())
+  .pipe($.eslint.format())
+  .pipe($.eslint.failOnError())
   .on('error', $.util.log);
 });

@@ -1,5 +1,3 @@
-'use strict';
-
 global.gulp = require('gulp');
 global.path = require('path');
 global.environment = process.env.NODE_ENV || 'development';

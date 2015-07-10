@@ -1,6 +1,4 @@
 /* global config, $ */
-'use strict';
-
 // Compile jade, and inject <script> tags for
 // all of the bower dependencies
 gulp.task('jade', function() {
