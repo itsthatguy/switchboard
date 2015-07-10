@@ -3,7 +3,8 @@ module.exports = {
   devtool: '#source-map',
   output: {
     filename: '[name].js',
-    sourcemapFilename: '[name].map'
+    sourcemapFilename: '[name].map',
+    sourcePrefix: '  '
   },
   module: {
     loaders: [
