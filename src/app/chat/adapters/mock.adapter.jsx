@@ -2,12 +2,16 @@
 /* eslint no-console: 0 */
 import BaseAdapter     from './base.adapter';
 import MessagesActions from '../messages/messages.actions';
+import ChannelsActions from '../channels/channels.actions';
 
 export default class ChatMock extends BaseAdapter {
   constructor () {
     super();
     this.client = {};
+    this.channels = [];
     this.messages = [];
+
+    this.joinRoom({id: '#test'});
 
     // Recieve Message
     let users = ['Amy', 'Kevin', 'Tyler', 'Ted'];
@@ -26,7 +30,8 @@ export default class ChatMock extends BaseAdapter {
   }
 
   joinRoom (data) {
-    console.log(data);
+    this.channels = this.channels.concat([data]);
+    ChannelsActions.updateChannels(this.channels);
   }
 
   leaveRoom (data) {

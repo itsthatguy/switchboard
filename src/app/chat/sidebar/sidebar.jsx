@@ -10,7 +10,7 @@ export default React.createClass({
   render () {
 
     return (
-      <div className='sidebar__wrapper'></div>
+      <div className='services__wrapper'></div>
     );
   }
 });
