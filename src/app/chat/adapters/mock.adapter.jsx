@@ -7,6 +7,7 @@ export default class ChatMock extends BaseAdapter {
   constructor () {
     super();
     this.client = {};
+    this.messages = [];
 
     // Recieve Message
     let users = ['Amy', 'Kevin', 'Tyler', 'Ted'];
@@ -33,7 +34,8 @@ export default class ChatMock extends BaseAdapter {
   }
 
   addMessage (data) {
-    MessagesActions.addMessage(data);
+    this.messages.push(data);
+    MessagesActions.updateMessages(this.messages);
   }
 
   sendMessage (data) {

@@ -1,11 +1,12 @@
-import Reflux from 'reflux';
+import alt from '../../alt';
 
-// Actions
-export default Reflux.createActions([
-  'connect',
-  'disconnect',
-  'join',
-  'leave',
-  'addMessage',
-  'sendMessage'
-]);
+class MessagesActions {
+  connect() { return {}; }
+  disconnect() { return {}; }
+  join() { return {}; }
+  leave() { return {}; }
+  updateMessages(messages) { return messages; }
+  sendMessage(message) { return message; }
+}
+
+export default alt.createActions(MessagesActions);
