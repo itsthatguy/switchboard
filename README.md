@@ -1,4 +1,6 @@
-# Switchboard Multi-Service Chat Client 
+# Switchboard Multi-Service Chat Client
+
+[![Build Status](https://travis-ci.org/itsthatguy/switchboard.svg?branch=master)](https://travis-ci.org/itsthatguy/switchboard)
 
 Switchboard is built using a modular adapter system that allows you to integrate custom chat protocols with relative ease. Simply follow the 'Adapter Interface Requirements'. Switchboard and the client will handle the rest.
 
@@ -9,7 +11,7 @@ Switchboard is built using a modular adapter system that allows you to integrate
 - ~~IRC (done)~~
 - Slack (not-started)
 - Flowdock (not-started)
-- Campfire (not-started) 
+- Campfire (not-started)
 - others... (not-started)
 
 ### Install requirements
@@ -24,7 +26,7 @@ bower install
 $(npm bin)/gulp serve # starts the app in the browser
 
 # Running in nw.js
-$(npm bin)/gulp watch 
+$(npm bin)/gulp watch
 npm start # starts the app in webkit (use with gulp watch)
 ```
 
