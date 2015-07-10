@@ -4,12 +4,21 @@ global.environment = process.env.NODE_ENV || 'development';
 
 global.$ = require('gulp-load-plugins')({
   pattern: [
-    'gulp-*',
-    'del',
-    'main-bower-files',
     'browser-sync',
+    'del',
+    'gulp-eslint',
+    'gulp-filter',
+    'gulp-inject',
+    'gulp-jade',
+    'gulp-plumber',
+    'gulp-sass',
+    'gulp-util',
+    'gulp-watch',
+    'main-bower-files',
+    'node-webkit-builder',
     'tosource',
-    'node-webkit-builder']
+    'webpack-stream',
+  ]
 });
 
 require('./config');

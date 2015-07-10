@@ -6,7 +6,7 @@ gulp.task('js', function() {
 
   return gulp.src(config.js.src)
   .pipe($.plumber())
-  .pipe($.webpack(config.js.webpackOptions))
+  .pipe($.webpackStream(config.js.webpackOptions))
   .pipe($.inject(dummyInjectSrc, config.js.inject.options))
   .pipe(gulp.dest(config.js.dest))
   .pipe($.browserSync.reload({stream:true}));
