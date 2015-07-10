@@ -10,6 +10,7 @@ export default class IrcAdapter extends BaseAdapter {
     this.port     = 6667;
     this.debug    = true;
     this.channels = ['#test'];
+    this.messages = [];
 
     this.client = new IRC.Client(this.server, this.nick, {
       showErrors : this.debug,
@@ -34,7 +35,7 @@ export default class IrcAdapter extends BaseAdapter {
           message : data.args[1]
         };
 
-        MessagesActions.addMessage(payload);
+        this.addMessage(payload);
         break;
       }
       case 'JOIN': {
@@ -45,5 +46,10 @@ export default class IrcAdapter extends BaseAdapter {
         break;
       }
     }
+  }
+
+  addMessage (data) {
+    this.messages.push(data);
+    MessagesActions.updateMessages(data);
   }
 }
