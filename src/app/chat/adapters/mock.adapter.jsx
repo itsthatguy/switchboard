@@ -2,7 +2,7 @@
 /* eslint no-console: 0 */
 import BaseAdapter     from './base.adapter';
 import MessagesActions from '../messages/messages.actions';
-import ChannelsActions from '../channels/channels.actions';
+import SidebarActions from '../sidebar/sidebar.actions';
 
 export default class ChatMock extends BaseAdapter {
   constructor () {
@@ -31,7 +31,7 @@ export default class ChatMock extends BaseAdapter {
 
   joinRoom (data) {
     this.channels = this.channels.concat([data]);
-    ChannelsActions.updateChannels(this.channels);
+    SidebarActions.updateChannels(this.channels);
   }
 
   leaveRoom (data) {
