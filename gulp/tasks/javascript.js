@@ -1,6 +1,4 @@
 /* global config, $ */
-'use strict';
-
 // We use this for packaging our JS right now
 gulp.task('js', function() {
   // This file source is irrelevant, it's a hack to create a single item

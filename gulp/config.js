@@ -1,6 +1,4 @@
 /* global environment, path, $, config */
-'use strict';
-
 global.config = {};
 config.PROJECT_ROOT = path.join(__dirname, '..');
 config.DIST = path.join(config.PROJECT_ROOT, 'dist');

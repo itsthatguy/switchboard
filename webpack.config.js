@@ -18,7 +18,7 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   externals: {
-    'flowdock': 'flowdock',
-    'react': 'React'
+    flowdock: 'flowdock',
+    react: 'React'
   }
 };

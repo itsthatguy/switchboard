@@ -1,6 +1,4 @@
 /* global config, $ */
-'use strict';
-
 // Moves static files to dist folder
 gulp.task('assets', function() {
   return gulp.src(config.assets.src)

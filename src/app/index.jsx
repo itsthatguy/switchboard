@@ -1,5 +1,4 @@
 /* global React */
-'use strict';
 
 // INCOMING ADAPTER Method Requirements:
 //   - connect(data)

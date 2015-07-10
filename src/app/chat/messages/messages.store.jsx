@@ -1,9 +1,6 @@
-'use strict';
-
 import Reflux          from 'reflux';
 import MessagesActions from './messages.actions';
 
-// Store
 export default Reflux.createStore({
   listenables: MessagesActions,
 
@@ -29,6 +26,5 @@ export default Reflux.createStore({
 
   onSendMessage (message) {
     global.client.sendMessage({channel: '#test', message: message});
-    console.log('New message:', message);
   }
 });

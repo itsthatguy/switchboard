@@ -1,6 +1,5 @@
 /* global $ */
-'use strict';
-
+/* eslint new-cap: 0, no-console: 0 */
 gulp.task('build', ['default'], function() {
   var nw = new $.nodeWebkitBuilder({
       files: './dist/**/*', // use the glob format
@@ -9,8 +8,8 @@ gulp.task('build', ['default'], function() {
   });
 
   nw.build().then(function() {
-    console.log('DONE');
+    $.util.log('DONE');
   }).catch(function (error) {
-    console.error(error);
+    $.util.error(error);
   });
 });
