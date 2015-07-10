@@ -1,45 +1,38 @@
 /* global React */
-import Reflux         from 'reflux';
+import connectToStores from 'alt/utils/connectToStores';
 import Styles         from './messages.styles';
 import MessagesStore  from './messages.store';
 import Message        from './message';
 
-export default React.createClass({
-  displayName: 'ChatMessages',
+class Messages extends React.Component {
+  static getStores () {
+    return [MessagesStore];
+  }
 
-  mixins: [
-    Reflux.listenTo(MessagesStore, 'onChange')
-  ],
-
-  getInitialState () {
-    return { messages: [] };
-  },
+  static getPropsFromStores () {
+    return MessagesStore.getState();
+  }
 
   componentWillMount () {
     // get all messages
-  },
+  }
 
   componentWillUpdate () {
-    let node = this.getDOMNode();
+    let node = React.findDOMNode(this);
     this.shouldScrollBottom = node.scrollTop + node.offsetHeight === node.scrollHeight;
-  },
+  }
 
   componentDidUpdate () {
     if (this.shouldScrollBottom) {
-      let node = this.getDOMNode();
+      let node = React.findDOMNode(this);
       node.scrollTop = node.scrollHeight;
     }
-  },
-
-  onChange (newMessage) {
-    let obj = this.state.messages.concat([newMessage]);
-    this.setState({ messages: obj });
-  },
+  }
 
   render () {
     return (
       <div style={Styles.Messages.Wrapper} className='messages__list'>
-        {this.state.messages.map((data, key) => {
+        {this.props.messages.map((data, key) => {
           return (
             <Message user={data.user} message={data.message} key={key} />
           );
@@ -47,4 +40,6 @@ export default React.createClass({
       </div>
     );
   }
-});
+}
+
+export default connectToStores(Messages);
