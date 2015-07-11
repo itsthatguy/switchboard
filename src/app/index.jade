@@ -25,9 +25,11 @@ html
                   return {
                     addListener: function() {},
                     say: function() {},
-                    chans: {}
+                    chans: {
+                      return {users: {}}
+                    }
                   }
-                },
+                }
               }
             }
             default: { return; }

@@ -58,6 +58,12 @@ export default class IrcAdapter extends BaseAdapter {
   }
 
   getUsersForChannel (channel) {
-    return (this.client.chans[channel] || {users:{}}).users;
+    let channel;
+    try {
+      channel = this.client.chans[channel];
+    } catch (err) {
+      return throw new Error('You are not a member of that channel');
+    }
+    return channel.users;
   }
 }
