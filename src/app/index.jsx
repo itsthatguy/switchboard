@@ -23,7 +23,7 @@
 import Messages        from './chat/messages/messages';
 import MessagesInput   from './chat/messages/input/input';
 import MessagesNav     from './chat/nav/nav';
-import MessagesSidebar from './chat/sidebar/sidebar';
+import ChatSidebar     from './chat/sidebar/sidebar';
 import Chat            from './chat/adapters/adapters';
 
 if (window.nativeRequire) { window.global = window; }
@@ -37,7 +37,7 @@ let App = React.createClass({
       <div className='app__wrapper'>
         <MessagesNav />
         <div className='content__wrapper'>
-          <MessagesSidebar />
+          <ChatSidebar />
           <div className='messages__wrapper'>
             <Messages />
             <MessagesInput />
