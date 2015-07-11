@@ -64,6 +64,11 @@ export default class IrcAdapter extends BaseAdapter {
     } catch (err) {
       throw new Error('You are not a member of that channel');
     }
-    return channelData.users;
+    let users = [];
+    Object.keys(channelData.users).forEach((key) => {
+      users.push({userName: key, userPhoto: ''});
+    });
+
+    return users;
   }
 }
