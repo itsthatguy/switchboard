@@ -19,7 +19,13 @@ html
           // put shims for native-requires in here, for browser testing
 
           switch (name) {
-            case 'irc': { return {}; }
+            case 'irc': {
+              return {
+                Client: function() {
+                  return { addListener: function() {} }
+                },
+              }
+            }
             default: { return; }
           }
         }
