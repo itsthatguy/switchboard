@@ -34,7 +34,7 @@ class Messages extends React.Component {
       <div style={Styles.Messages.Wrapper} className='messages__list'>
         {this.props.messages.map((data, key) => {
           return (
-            <Message user={data.user} message={data.message} key={key} />
+            <Message userName={data.user} message={data.message} key={key} />
           );
         })}
       </div>

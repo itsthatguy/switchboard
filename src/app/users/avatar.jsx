@@ -10,18 +10,16 @@ export default React.createClass({
 
   getDefaultProps () {
     return {
-      url: ''
+      userPhoto: ''
     };
   },
 
   render () {
     return (
       <span className='user__avatar'>
-        {
-          this.props.userPhoto
+        {this.props.userPhoto
           ? <img src={this.props.userPhoto} />
-          : <span className='user__avatar--placeholder' />
-        }
+          : <span className='user__avatar--placeholder' />}
       </span>
     );
   }

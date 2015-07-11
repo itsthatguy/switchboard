@@ -4,8 +4,13 @@
 
 html, body {
   font-family: Roboto, sans-serif;
+  font-size: 14px;
 }
 
 pre, code {
   font-family: 'Source Code Pro', monospaced;
+}
+
+p {
+  line-height: 1.5rem;
 }

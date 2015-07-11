@@ -13,13 +13,11 @@ export default React.createClass({
     let member    = this.props.member;
     let userName  = member.userName;
     let userPhoto = member.userPhoto; // Temporarily named
-    let avatar    = member.avatar
-                    ? <Avatar username={userName} userphoto={userPhoto} />
-                    : <span />;
 
     return (
       <div className='member'>
-        <p>{avatar}<strong>{userName}</strong></p>
+        <Avatar username={userName} userphoto={userPhoto} />
+        <span>{userName}</span>
       </div>
     );
   }

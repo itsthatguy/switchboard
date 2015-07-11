@@ -11,7 +11,12 @@ export default React.createClass({
 
   getDefaultProps () {
     return {
-      members: []
+      members: [
+        {userName: 'Amy', userPhoto: ''},
+        {userName: 'Kevin', userPhoto: ''},
+        {userName: 'Ted', userPhoto: ''},
+        {userName: 'Tyler', userPhoto: ''},
+      ]
     };
   },
 
