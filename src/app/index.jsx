@@ -20,6 +20,7 @@
 // injectconfig
 // endinject
 
+import MembersList     from './chat/members/members';
 import Messages        from './chat/messages/messages';
 import MessagesInput   from './chat/messages/input/input';
 import MessagesNav     from './chat/nav/nav';
@@ -41,6 +42,9 @@ let App = React.createClass({
           <div className='messages__wrapper'>
             <Messages />
             <MessagesInput />
+          </div>
+          <div className='members__wrapper'>
+            <MembersList />
           </div>
         </div>
       </div>
