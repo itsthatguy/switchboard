@@ -12,6 +12,7 @@ export default class IrcAdapter extends BaseAdapter {
     this.channels = ['#test'];
     this.messages = [];
 
+    var self = this;
     this.client = new IRC.Client(this.server, this.nick, {
       showErrors : this.debug,
       debug      : this.debug,
@@ -19,7 +20,7 @@ export default class IrcAdapter extends BaseAdapter {
       channels   : this.channels
     })
     .addListener('raw', function (message) {
-      this.eventHandler(message);
+      self.eventHandler(message);
     });
   }
 
@@ -51,5 +52,13 @@ export default class IrcAdapter extends BaseAdapter {
   addMessage (data) {
     this.messages.push(data);
     MessagesActions.updateMessages(data);
+  }
+
+  sendMessage (data) {
+    this.client.say(data.channel, data.message);
+  }
+
+  getUsersForChannel (channel) {
+    return this.client.chans[channel].users;
   }
 }
