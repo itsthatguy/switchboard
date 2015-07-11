@@ -22,7 +22,11 @@ html
             case 'irc': {
               return {
                 Client: function() {
-                  return { addListener: function() {} }
+                  return {
+                    addListener: function() {},
+                    say: function() {},
+                    chans: {}
+                  }
                 },
               }
             }

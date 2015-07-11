@@ -59,6 +59,6 @@ export default class IrcAdapter extends BaseAdapter {
   }
 
   getUsersForChannel (channel) {
-    return this.client.chans[channel].users;
+    return (this.client.chans[channel] || {users:{}}).users;
   }
 }
