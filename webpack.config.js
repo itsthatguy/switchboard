@@ -1,9 +1,10 @@
 module.exports = {
   target: 'node-webkit',
-  devtool: '#source-map',
+  // devtool: '#source-map',
+  devtool: '#inline-source-map',
   output: {
     filename: '[name].js',
-    sourcemapFilename: '[name].map',
+    sourcemapFilename: '[name].map', // only used with #source-map
     sourcePrefix: '  '
   },
   module: {
