@@ -3,7 +3,7 @@
 gulp.task('build', ['default'], function() {
   var nw = new $.nodeWebkitBuilder({
       files: './dist/**/*', // use the glob format
-      version: '0.11.6',
+      version: '0.12.2',
       platforms: ['win32', 'win64']
   });
 
