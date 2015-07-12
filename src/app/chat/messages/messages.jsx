@@ -1,6 +1,5 @@
 /* global React */
 import connectToStores from 'alt/utils/connectToStores';
-import Styles         from './messages.styles';
 import MessagesStore  from './messages.store';
 import Message        from './message';
 
@@ -30,9 +29,11 @@ class Messages extends React.Component {
   }
 
   render () {
+    let messages = this.props.messages;
+
     return (
-      <div style={Styles.Messages.Wrapper} className='messages__list'>
-        {this.props.messages.map((data, key) => {
+      <div className='messages__list'>
+        {messages.map((data, key) => {
           return (
             <Message userName={data.user} message={data.message} key={key} />
           );

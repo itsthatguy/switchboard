@@ -8,6 +8,7 @@
     flex: 1;
     height: auto;
     max-height: 100%;
+    overflow-y: auto;
   }
 
   > .message__input {

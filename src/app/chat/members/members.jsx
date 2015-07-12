@@ -26,9 +26,9 @@ export default React.createClass({
     return (
       <div className='members__list'>
         <div className='inner'>
-          {members.map((data) => {
+          {members.map((data, key) => {
             return (
-              <Member member={data} />
+              <Member member={data} key={key} />
             );
           })}
         </div>

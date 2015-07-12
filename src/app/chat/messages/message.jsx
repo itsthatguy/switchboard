@@ -6,8 +6,8 @@ export default React.createClass({
   displayName: 'Message',
 
   propTypes: {
-    user    : React.PropTypes.string.isRequired,
-    message : React.PropTypes.string.isRequired
+    userName  : React.PropTypes.string.isRequired,
+    message   : React.PropTypes.string.isRequired
   },
 
   //
