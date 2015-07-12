@@ -18,7 +18,7 @@ export default class IrcAdapter extends BaseAdapter {
       port       : this.port,
       channels   : this.channels
     })
-    .addListener('raw', function (message) {
+    .addListener('raw', (message) => {
       this.eventHandler(message);
     });
   }
@@ -51,5 +51,13 @@ export default class IrcAdapter extends BaseAdapter {
   addMessage (data) {
     this.messages.push(data);
     MessagesActions.updateMessages(data);
+  }
+
+  sendMessage (data) {
+    this.client.say(data.channel, data.message);
+  }
+
+  getUsersForChannel (channel) {
+    return (this.client.chans[channel] || {users:{}}).users;
   }
 }

@@ -28,8 +28,8 @@ import MessagesSidebar from './chat/sidebar/sidebar';
 import Chat            from './chat/adapters/adapters';
 
 if (window.nativeRequire) { window.global = window; }
-global.client = new Chat('mock');
-// global.client = new Chat('irc');
+// global.client = new Chat('mock');
+global.client = new Chat('irc');
 
 // Temporary app wrapper
 let App = React.createClass({
