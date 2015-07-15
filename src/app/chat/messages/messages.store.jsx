@@ -38,7 +38,7 @@ class MessagesStore {
   }
 
   onSendMessage (message) {
-    global.client.sendMessage({channel: '#test', message: message});
+    global.client.sendMessage({channel: '#test', message: message, user: '__NEED_USERNAME__'});
   }
 }
 

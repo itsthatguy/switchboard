@@ -8,9 +8,40 @@
     flex: 1;
     height: auto;
     max-height: 100%;
+    overflow-y: auto;
   }
 
   > .message__input {
     min-height: 4rem;
+  }
+}
+
+.messages__list .message {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: .75rem;
+
+  &--avatar {
+    min-width: 2.5rem;
+
+    > .user__avatar {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  &--data {
+
+  }
+
+  // Username
+  strong {
+    margin-right: .25rem;
+  }
+
+  // Date stamp
+  small {
+    font-size: .75rem;
+    color: $grey-light;
   }
 }

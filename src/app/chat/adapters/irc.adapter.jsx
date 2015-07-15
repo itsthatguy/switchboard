@@ -13,12 +13,12 @@ export default class IrcAdapter extends BaseAdapter {
     this.messages = [];
 
     this.client = new IRC.Client(this.server, this.nick, {
-      showErrors : this.debug,
-      debug      : this.debug,
+      showErrors : false,
+      debug      : false,
       port       : this.port,
       channels   : this.channels
     })
-    .addListener('raw', function (message) {
+    .addListener('raw', (message) => {
       this.eventHandler(message);
     });
   }
@@ -34,7 +34,6 @@ export default class IrcAdapter extends BaseAdapter {
           channel : data.args[0],
           message : data.args[1]
         };
-
         this.addMessage(payload);
         break;
       }
@@ -48,8 +47,27 @@ export default class IrcAdapter extends BaseAdapter {
     }
   }
 
+  //
+  // NOTE: We will need a better way to handle an actions queue.
+  // setTimeout() is a work around for 'async' actions throwing errors.
+  //
+
   addMessage (data) {
-    this.messages.push(data);
-    MessagesActions.updateMessages(data);
+    setTimeout(() => {
+      this.messages.push(data);
+      MessagesActions.updateMessages(this.messages);
+    }, 0);
+  }
+
+  sendMessage (data) {
+    setTimeout(() => {
+      this.client.say(data.channel, data.message);
+      this.messages.push(data);
+      MessagesActions.updateMessages(this.messages);
+    }, 0);
+  }
+
+  getUsersForChannel (channel) {
+    return (this.client.chans[channel] || {users:{}}).users;
   }
 }
