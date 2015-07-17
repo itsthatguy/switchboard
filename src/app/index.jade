@@ -20,7 +20,15 @@ html
 
           switch (name) {
             case 'irc': {
-              return {};
+              return {
+                Client: function() {
+                  return {
+                    addListener: function() {},
+                    say: function() {},
+                    chans: {}
+                  }
+                },
+              }
             }
             default: { return; }
           }

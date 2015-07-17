@@ -1,11 +1,9 @@
 /* global React */
-'use strict';
-
 export default React.createClass({
   displayName: 'MessagesNav',
 
   getInitialState () {
-    return { }
+    return { };
   },
 
 

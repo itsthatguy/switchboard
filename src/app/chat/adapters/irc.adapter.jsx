@@ -10,14 +10,15 @@ export default class IrcAdapter extends BaseAdapter {
     this.port     = 6667;
     this.debug    = true;
     this.channels = ['#test'];
+    this.messages = [];
 
-    this.client = new IRC.Client(server, nick, {
-      showErrors : debug,
-      debug      : debug,
-      port       : port,
-      channels   : channels
+    this.client = new IRC.Client(this.server, this.nick, {
+      showErrors : false,
+      debug      : false,
+      port       : this.port,
+      channels   : this.channels
     })
-    .addListener('raw', function (message) {
+    .addListener('raw', (message) => {
       this.eventHandler(message);
     });
   }
@@ -33,8 +34,7 @@ export default class IrcAdapter extends BaseAdapter {
           channel : data.args[0],
           message : data.args[1]
         };
-
-        MessagesActions.addMessage(payload);
+        this.addMessage(payload);
         break;
       }
       case 'JOIN': {
@@ -45,5 +45,29 @@ export default class IrcAdapter extends BaseAdapter {
         break;
       }
     }
+  }
+
+  //
+  // NOTE: We will need a better way to handle an actions queue.
+  // setTimeout() is a work around for 'async' actions throwing errors.
+  //
+
+  addMessage (data) {
+    setTimeout(() => {
+      this.messages.push(data);
+      MessagesActions.updateMessages(this.messages);
+    }, 0);
+  }
+
+  sendMessage (data) {
+    setTimeout(() => {
+      this.client.say(data.channel, data.message);
+      this.messages.push(data);
+      MessagesActions.updateMessages(this.messages);
+    }, 0);
+  }
+
+  getUsersForChannel (channel) {
+    return (this.client.chans[channel] || {users:{}}).users;
   }
 }

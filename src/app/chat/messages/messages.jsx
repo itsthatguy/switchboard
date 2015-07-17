@@ -1,53 +1,46 @@
 /* global React */
-'use strict';
-
-import Reflux         from 'reflux';
-import Styles         from './messages.styles'
+import connectToStores from 'alt/utils/connectToStores';
 import MessagesStore  from './messages.store';
-import Message        from './message'
+import Message        from './message';
 
+class Messages extends React.Component {
+  static getStores () {
+    return [MessagesStore];
+  }
 
-export default React.createClass({
-  displayName: 'ChatMessages',
-
-  mixins: [
-    Reflux.listenTo(MessagesStore, 'onChange')
-  ],
-
-  getInitialState () {
-    return { messages: [] }
-  },
+  static getPropsFromStores () {
+    return MessagesStore.getState();
+  }
 
   componentWillMount () {
     // get all messages
-  },
+  }
 
   componentWillUpdate () {
-    let node = this.getDOMNode();
+    let node = React.findDOMNode(this);
     this.shouldScrollBottom = node.scrollTop + node.offsetHeight === node.scrollHeight;
-  },
+  }
 
   componentDidUpdate () {
     if (this.shouldScrollBottom) {
-      let node = this.getDOMNode();
-      node.scrollTop = node.scrollHeight
+      let node = React.findDOMNode(this);
+      node.scrollTop = node.scrollHeight;
     }
-  },
-
-  onChange (newMessage) {
-    let obj = this.state.messages.concat([newMessage]);
-    this.setState({ messages: obj });
-  },
+  }
 
   render () {
+    let messages = this.props.messages;
+
     return (
-      <div style={Styles.Messages.Wrapper} className='messages__list'>
-        {this.state.messages.map((data, key) => {
+      <div className='messages__list'>
+        {messages.map((data, key) => {
           return (
-            <Message user={data.user} message={data.message} key={key} />
-          )
+            <Message userName={data.user} message={data.message} key={key} />
+          );
         })}
       </div>
-    )
+    );
   }
-});
+}
+
+export default connectToStores(Messages);

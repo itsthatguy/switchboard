@@ -1,5 +1,4 @@
 /* global React */
-'use strict';
 
 // INCOMING ADAPTER Method Requirements:
 //   - connect(data)
@@ -21,6 +20,7 @@
 // injectconfig
 // endinject
 
+import MembersList     from './chat/members/members';
 import Messages        from './chat/messages/messages';
 import MessagesInput   from './chat/messages/input/input';
 import MessagesNav     from './chat/nav/nav';
@@ -28,8 +28,8 @@ import MessagesSidebar from './chat/sidebar/sidebar';
 import Chat            from './chat/adapters/adapters';
 
 if (window.nativeRequire) { window.global = window; }
-global.client = new Chat('mock');
-// global.client = new Chat('irc');
+// global.client = new Chat('mock');
+global.client = new Chat('irc');
 
 // Temporary app wrapper
 let App = React.createClass({
@@ -42,6 +42,9 @@ let App = React.createClass({
           <div className='messages__wrapper'>
             <Messages />
             <MessagesInput />
+          </div>
+          <div className='members__wrapper'>
+            <MembersList />
           </div>
         </div>
       </div>

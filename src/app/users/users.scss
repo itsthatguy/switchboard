@@ -1,0 +1,14 @@
+.user__avatar {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+  // No image
+  &--placeholder {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: darken($grey-white, 10%);
+  }
+}

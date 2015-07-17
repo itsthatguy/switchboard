@@ -1,6 +1,4 @@
 /* global environment, path, $, config */
-'use strict';
-
 global.config = {};
 config.PROJECT_ROOT = path.join(__dirname, '..');
 config.DIST = path.join(config.PROJECT_ROOT, 'dist');
@@ -82,12 +80,11 @@ config.js = {
 
 config.lint = {
   src: [
-    config.PROJECT_ROOT + '/src/**/*.js',
+    config.PROJECT_ROOT + '/src/**/*.{js,jsx}',
     config.PROJECT_ROOT + '/gulp/**/*.js',
     config.PROJECT_ROOT + '/gulpfile.js',
     config.PROJECT_ROOT + '/webpack.config.js'
-  ],
-  reporter: 'jshint-stylish'
+  ]
 };
 
 config.sass = {

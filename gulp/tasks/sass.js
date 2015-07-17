@@ -1,6 +1,4 @@
 /* global config, $ */
-'use strict';
-
 gulp.task('sass', function() {
   var injectSassSrc = gulp.src(config.sass.inject.src, {read: false});
 
